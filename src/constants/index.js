@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
+  temple,
   threejs,
 } from "../assets";
 
@@ -42,8 +42,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Full Stack Developer",
+    icon: web,//change to full stack
   },
   {
     title: "React Native Developer",
@@ -54,16 +54,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Frontend Developer",
+    icon: backend, // change to frontend
   },
 ];
 
@@ -150,29 +142,29 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Full Stack Developer",
+    company_name: "ThinkNext Technologies",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+              "Migrated the entire Aakash vertical to Tutor-Tech horizontal, reducing AWS costs by 70%.",
+              "Integrated Slack Webhooks across the system, quickly solving errors and reducing L2 Support dependency.",
+              "Developed a Duplicate Slide Feature, cutting the time required for duplication from ~4000 man-hours per year to ~30 man-hours.",
+              "Developed a batch migration utility for TutorPlus, decreasing weekly user issues by 32%.",
+              "Trained and mentored a team of interns and new hires, providing guidance on technical skills and best practices, leading to improved team productivity and smoother onboarding processes."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Frontend Developer",
+    company_name: "ThinkNext Technologies",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+              "Developed a gym management system using HTML, CSS, JavaScript, and PHP to streamline operations, member management, and fitness tracking.",
+              "Implemented features such as online class scheduling, payment processing, and personalized workout plans, enhancing user experience and operational efficiency.",
+              "Collaborated with designers and backend developers to integrate RESTful APIs, ensuring cohesive functionality across web applications.",
     ],
   },
 ];
@@ -206,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Temple Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Improved functionalities, addressing user feedback and optimizing user experience. Designed intuitive interfaces and collaborated on integration, security, and payment systems. Enhanced appointment management, live streaming, and comprehensive event scheduling.",
     tags: [
       {
         name: "react",
@@ -222,9 +214,13 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "white-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: temple,
+    source_code_link: "https://github.com/khushal212001/SE-Temple-Management",
   },
   {
     name: "Job IT",
