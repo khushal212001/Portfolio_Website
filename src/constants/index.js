@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   meta,
+  thinknext,
   starbucks,
   tesla,
   shopify,
@@ -144,7 +145,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "ThinkNext Technologies",
-    icon: shopify,
+    icon: thinknext,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -158,7 +159,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "ThinkNext Technologies",
-    icon: meta,
+    icon: thinknext,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -225,7 +226,7 @@ const projects = [
   {
     name: "BiteSquad",
     description:
-      "Allows users to explore, select and order a variety of cuisines from the comfort of their homes or workplaces. Administrators can manage food items and perform user management tasks for efficient platform administration. Integrated stripe payment gateways for smooth transactions of order payments.",
+      "Allows users to explore, select and order a variety of cuisines from the comfort of their homes or workplaces. Administrators can manage food items and perform user management tasks for efficient platform administration. Integrated stripe payment gateways.",
     tags: [
       {
         name: "react",

@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import thinknext from "./company/thinknext.png";
 
 import temple from "./temple.png";
 import food from "./food.png";
@@ -57,6 +58,7 @@ export {
   starbucks,
   tesla,
   temple,
+  thinknext,
   food,
   tripguide,
 };
