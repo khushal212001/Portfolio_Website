@@ -224,6 +224,7 @@ const projects = [
     ],
     image: temple,
     source_code_link: "https://github.com/khushal212001/SE-Temple-Management",
+    live_link: "https://se-temple-management-1.onrender.com/"
   },
   {
     name: "BiteSquad",
@@ -249,6 +250,7 @@ const projects = [
     ],
     image: food,
     source_code_link: "https://github.com/khushal212001/Food-App-frontend",
+    live_link: "https://food-app-frontend-ppjo.onrender.com"
   },
   {
     name: "Trip Guide",
@@ -274,6 +276,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    live_link: "https://ridelink-public.vercel.app/"
   },
 ];
 
