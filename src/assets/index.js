@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import temple from "./temple.png";
-import jobit from "./jobit.png";
+import food from "./food.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,6 +57,6 @@ export {
   starbucks,
   tesla,
   temple,
-  jobit,
+  food,
   tripguide,
 };

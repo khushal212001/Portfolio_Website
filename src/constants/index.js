@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  jobit,
+  food,
   tripguide,
   temple,
   threejs,
@@ -223,7 +223,7 @@ const projects = [
     source_code_link: "https://github.com/khushal212001/SE-Temple-Management",
   },
   {
-    name: "Job IT",
+    name: "BiteSquad",
     description:
       "Allows users to explore, select and order a variety of cuisines from the comfort of their homes or workplaces. Administrators can manage food items and perform user management tasks for efficient platform administration. Integrated stripe payment gateways for smooth transactions of order payments.",
     tags: [
@@ -232,16 +232,20 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "chakra-ui",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "white-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: food,
+    source_code_link: "https://github.com/khushal212001/Food-App-frontend",
   },
   {
     name: "Trip Guide",
