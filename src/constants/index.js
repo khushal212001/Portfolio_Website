@@ -225,7 +225,7 @@ const projects = [
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Allows users to explore, select and order a variety of cuisines from the comfort of their homes or workplaces. Administrators can manage food items and perform user management tasks for efficient platform administration. Integrated stripe payment gateways for smooth transactions of order payments.",
     tags: [
       {
         name: "react",
@@ -249,16 +249,20 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "chakra-ui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "white-text-gradient",
       },
     ],
     image: tripguide,
