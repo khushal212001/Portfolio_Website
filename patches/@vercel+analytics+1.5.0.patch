@@ -1,0 +1,13 @@
+diff --git a/node_modules/@vercel/analytics/dist/next/index.mjs b/node_modules/@vercel/analytics/dist/next/index.mjs
+index 9291810..7b87b4a 100644
+--- a/node_modules/@vercel/analytics/dist/next/index.mjs
++++ b/node_modules/@vercel/analytics/dist/next/index.mjs
+@@ -174,7 +174,7 @@ function Analytics(props) {
+ }
+ 
+ // src/nextjs/utils.ts
+-import { useParams, usePathname, useSearchParams } from "next/navigation.js";
++import { useParams, usePathname, useSearchParams } from "next/navigation";
+ var useRoute = () => {
+   const params = useParams();
+   const searchParams = useSearchParams();

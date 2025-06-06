@@ -203,7 +203,7 @@ const projects = [
   {
     name: "Converso: AI Learning Companion",
     description:
-      "Built Converso, an AI-powered study companion SaaS using Next.js, Supabase & Stripe with real-time speech-to-speech interaction via Vapi. Features include user authentication, subscriptions, payments, and an AI vocal agent for interactive learning.",
+      "Built Converso, an AI-powered study companion SaaS using Next.js, Supabase & Stripe . Features include user authentication, subscriptions, payments, and an AI vocal agent for interactive learning.",
     tags: [
       {
         name: "Next.Js",
@@ -214,18 +214,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Vapi",
         color: "pink-text-gradient",
       },
       {
         name: "Clerk",
         color: "white-text-gradient",
       },
-      {
-        name: "Vapi",
-        color: "green-text-gradient",
-      },
-
     ],
     image: converso,
     source_code_link: "https://github.com/khushal212001/saas-app.git",
