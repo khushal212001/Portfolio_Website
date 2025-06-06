@@ -25,7 +25,7 @@ import {
   temple,
   threejs,
   gameplay,
-  game
+  converso
 } from "../assets";
 
 export const navLinks = [
@@ -201,6 +201,37 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Converso: AI Learning Companion",
+    description:
+      "Built Converso, an AI-powered study companion SaaS using Next.js, Supabase & Stripe with real-time speech-to-speech interaction via Vapi. Features include user authentication, subscriptions, payments, and an AI vocal agent for interactive learning.",
+    tags: [
+      {
+        name: "Next.Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Vapi",
+        color: "green-text-gradient",
+      },
+
+    ],
+    image: converso,
+    source_code_link: "https://github.com/khushal212001/saas-app.git",
+    live_link: "https://saas-app-liart.vercel.app/"
+  },
+  {
     name: "Temple Management",
     description:
       "Improved functionalities, addressing user feedback and optimizing user experience. Designed intuitive interfaces and collaborated on integration, security, and payment systems. Enhanced appointment management, live streaming, and comprehensive event scheduling.",
@@ -252,32 +283,7 @@ const projects = [
     source_code_link: "https://github.com/khushal212001/Food-App-frontend",
     live_link: "https://food-app-frontend-ppjo.onrender.com"
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chakra-ui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "white-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    live_link: "https://ridelink-public.vercel.app/"
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -30,6 +30,7 @@ import game from "./company/game.png";
 import gameplay from "./company/gameplay.png";
 
 import temple from "./temple.png";
+import converso from "./converso.png";
 import food from "./food.png";
 import tripguide from "./tripguide.png";
 
@@ -65,4 +66,5 @@ export {
   game,
   gameplay,
   tripguide,
+  converso
 };
