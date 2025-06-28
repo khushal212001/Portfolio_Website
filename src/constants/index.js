@@ -250,7 +250,7 @@ const projects = [
     ],
     image: temple,
     source_code_link: "https://github.com/khushal212001/SE-Temple-Management",
-    live_link: "https://se-temple-management-1.onrender.com/"
+    live_link: "https://temple-management.onrender.com/"
   },
   {
     name: "BiteSquad",
