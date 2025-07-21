@@ -224,8 +224,8 @@ const projects = [
       },
     ],
     image: resume_analyzer,
-    source_code_link: "https://github.com/khushal212001/Applicant-Tracking-System.git",
-    live_link: "https://applicant-tracking-system-cyan.vercel.app/"
+    source_code_link: "https://github.com/khushal212001/ai-resume-analyser.git",
+    live_link: "https://ai-resume-analyser-mu.vercel.app/"
   },
   {
     name: "Converso: AI Learning Companion",
