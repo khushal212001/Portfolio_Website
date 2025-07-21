@@ -29,10 +29,11 @@ import thinknext from "./company/thinknext.png";
 import game from "./company/game.png";
 import gameplay from "./company/gameplay.png";
 
-import temple from "./temple.png";
-import converso from "./converso.png";
-import food from "./food.png";
-import tripguide from "./tripguide.png";
+import temple from "./projects/temple.png";
+import converso from "./projects/converso.png";
+import food from "./projects/food.png";
+import tripguide from "./projects/tripguide.png";
+import resume_analyzer from "./projects/resume_analyzer.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   game,
   gameplay,
   tripguide,
-  converso
+  converso,
+  resume_analyzer
 };

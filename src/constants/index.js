@@ -25,7 +25,8 @@ import {
   temple,
   threejs,
   gameplay,
-  converso
+  converso,
+  resume_analyzer
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +201,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "ResMind: AI Resume Analyzer",
+    description:
+      "AI-powered Resume Analyzer with React and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing",
+    tags: [
+      {
+        name: "Next.Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Puter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "white-text-gradient",
+      },
+    ],
+    image: resume_analyzer,
+    source_code_link: "https://github.com/khushal212001/Applicant-Tracking-System.git",
+    live_link: "https://applicant-tracking-system-cyan.vercel.app/"
+  },
   {
     name: "Converso: AI Learning Companion",
     description:
