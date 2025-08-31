@@ -34,6 +34,8 @@ import converso from "./projects/converso.png";
 import food from "./projects/food.png";
 import tripguide from "./projects/tripguide.png";
 import resume_analyzer from "./projects/resume_analyzer.png";
+import fabric_visualiser from "./projects/fabric_visualiser.png";
+import niks_cleaning from "./projects/niks_cleaning.png";
 
 export {
   logo,
@@ -68,5 +70,7 @@ export {
   gameplay,
   tripguide,
   converso,
-  resume_analyzer
+  resume_analyzer,
+  fabric_visualiser,
+  niks_cleaning
 };

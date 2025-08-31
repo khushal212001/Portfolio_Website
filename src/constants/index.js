@@ -26,7 +26,9 @@ import {
   threejs,
   gameplay,
   converso,
-  resume_analyzer
+  resume_analyzer,
+  fabric_visualiser,
+  niks_cleaning
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +204,32 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AI-Powered 3D Fabric Visualizer",
+    description:
+      "Built an AI-powered fabric visualizer that maps mood-based queries to thousands of designs using NLP and FashionCLIP, and renders them on 3D room models with React, Three.js, and FastAPI—delivering real-time interactive previews with <1s performance.",
+    tags: [
+      {
+        name: "Next.Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "white-text-gradient",
+      },
+    ],
+    image: fabric_visualiser,
+    source_code_link: "https://github.com/khushal212001/FinezaAI.git",
+    live_link: "/"
+  },
+  {
     name: "ResMind: AI Resume Analyzer",
     description:
       "AI-powered Resume Analyzer with React and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing",
@@ -252,6 +280,32 @@ const projects = [
     image: converso,
     source_code_link: "https://github.com/khushal212001/saas-app.git",
     live_link: "https://saas-app-phi-orcin.vercel.app/"
+  },
+  {
+    name: "Niks Elite Cleaning",
+    description:
+      "Enabling the business to showcase services effectively, manage client inquiries seamlessly, and significantly boost online visibility. Implemented advanced SEO optimization, fully responsive design, and Google Business integration to drive quality leads, enhance brand presence, and improve overall customer engagement.",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "white-text-gradient",
+      },
+    ],
+    image: niks_cleaning,
+    source_code_link: "https://github.com/khushal212001/niks-cleaning-react.git",
+    live_link: "https://niks-elite-cleaning-au.onrender.com/"
   },
   {
     name: "Temple Management",
