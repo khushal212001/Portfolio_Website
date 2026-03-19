@@ -227,7 +227,6 @@ const projects = [
     ],
     image: fabric_visualiser,
     source_code_link: "https://github.com/khushal212001/FinezaAI.git",
-    live_link: "/"
   },
   {
     name: "ResMind: AI Resume Analyzer",
@@ -253,7 +252,6 @@ const projects = [
     ],
     image: resume_analyzer,
     source_code_link: "https://github.com/khushal212001/ai-resume-analyser.git",
-    live_link: "https://ai-resume-analyser-mu.vercel.app/"
   },
   {
     name: "Converso: AI Learning Companion",
@@ -279,7 +277,6 @@ const projects = [
     ],
     image: converso,
     source_code_link: "https://github.com/khushal212001/saas-app.git",
-    live_link: "https://saas-app-phi-orcin.vercel.app/"
   },
   {
     name: "Niks Elite Cleaning",
@@ -305,7 +302,6 @@ const projects = [
     ],
     image: niks_cleaning,
     source_code_link: "https://github.com/khushal212001/niks-cleaning-react.git",
-    live_link: "https://niks-elite-cleaning-au.onrender.com/"
   },
   {
     name: "Temple Management",
@@ -331,7 +327,6 @@ const projects = [
     ],
     image: temple,
     source_code_link: "https://github.com/khushal212001/SE-Temple-Management",
-    live_link: "https://temple-management.onrender.com/"
   },
   {
     name: "BiteSquad",
@@ -357,7 +352,6 @@ const projects = [
     ],
     image: food,
     source_code_link: "https://github.com/khushal212001/Food-App-frontend",
-    live_link: "https://food-app-frontend-ppjo.onrender.com"
   },
 
 ];
